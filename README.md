@@ -1,2 +1,2 @@
 # MS_Course
-homework and practice in NTHU
+homework and practice in course
