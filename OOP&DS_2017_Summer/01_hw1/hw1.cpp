@@ -49,7 +49,6 @@ class BigNumber{
             return result;
         }
 
-
         // overload '>' (bigger than)
         friend bool operator>(const BigNumber & B1, const BigNumber & B2){
             if(B1.size() > B2.size()){ return true; }
@@ -77,17 +76,11 @@ class BigNumber{
 
         // overload '-',  ** must bigger - smaller
         friend BigNumber operator-(const BigNumber & B1, const BigNumber & B2){
-
-            // cout << "B1 first: " << B1.number.back() << ", B1.number.at(B1.size()-1): " << B1.number.at(B1.size()-1) << ", len: " << B1.size() << endl;
-            // cout << "B2 first: " << B2.number.back() << ", B2.number.at(B2.size()-1): " << B2.number.at(B2.size()-1) << ", len: " << B2.size() << endl;
-
             // B_big - B_small
             BigNumber result, B_big, B_small;
             // check B1 > B2, of add '-'
             if(B2 > B1){ B_big = B2; B_small = B1; result.sign = -1; }
             else{ B_big = B1; B_small = B2; }
-
-            // cout << "view: " << B1.number.back() << " "  << B2.number.back() << " " << B_big.number.back()  << " "  << B_small.number.back() << endl;
 
             int carry_int = 0;
             for(int i = 0; i < B_big.size(); i++){
@@ -105,7 +98,6 @@ class BigNumber{
             }
             return result;
         }
-
 
         // overload '*'
         friend BigNumber operator*(const BigNumber & B1, const BigNumber & B2){
