@@ -1,13 +1,13 @@
 # MS_Course
 
-Collect my homework and practice in course.  
+Collection of my homework and practice in some courses.  
 If you have free time, view my code and give me some suggests, I will ❤️❤️ u.
-  
-  
-
-
-
-
+      
+      
+     
+     
+     
+    
 - - - 
   
 
