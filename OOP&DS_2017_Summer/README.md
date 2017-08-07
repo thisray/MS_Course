@@ -7,7 +7,11 @@ homework and practice in C++
 
 ## Work List
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] 00_hw0_RationalNumber_(summer_hw)
+- [x] 01_hw1_BigNumber
+- [ ] 01_hw2_BigNumberWithClass
+- [x] 02_lab2_PrimeFactorization
+- [x] 02_lab3_FibonacciBaseBinarySequence
+- [ ] 02_lab4
+- [ ] 02_lab5
+- [ ] 03_last_semester_question
