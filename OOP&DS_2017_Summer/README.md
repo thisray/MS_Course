@@ -12,6 +12,14 @@ homework and practice in C++
 - [ ] 01_hw2_BigNumberWithClass
 - [x] 02_lab2_PrimeFactorization
 - [x] 02_lab3_FibonacciBaseBinarySequence
-- [x] 02_lab4
+- [x] 02_lab4_Fraction
 - [ ] 02_lab5
 - [ ] 03_Online_Exam
+    - [ ] Question1_Fraction
+    - [ ] Question2_Multiple of 99
+    - [ ] Question3_token_reverse
+    - [ ] Question4_Polynomial
+    - [ ] Question5_circular_dequeue
+    - [ ] Question6_circular_dequeue_template
+    
+
