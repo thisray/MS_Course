@@ -14,12 +14,12 @@ homework and practice in C++
 - [x] 02_lab3_FibonacciBaseBinarySequence
 - [x] 02_lab4_Fraction
 - [ ] 02_lab5
-- [ ] 03_Online_Exam
+- [ ] 03_Online_Exam:
     - [ ] Question1_Fraction
-    - [ ] Question2_Multiple of 99
+    - [x] Question2_Multiple of 99
     - [ ] Question3_token_reverse
     - [ ] Question4_Polynomial
     - [ ] Question5_circular_dequeue
     - [ ] Question6_circular_dequeue_template
-    
+
 
