@@ -12,6 +12,6 @@ homework and practice in C++
 - [ ] 01_hw2_BigNumberWithClass
 - [x] 02_lab2_PrimeFactorization
 - [x] 02_lab3_FibonacciBaseBinarySequence
-- [ ] 02_lab4
+- [x] 02_lab4
 - [ ] 02_lab5
-- [ ] 03_last_semester_question
+- [ ] 03_Online_Exam
