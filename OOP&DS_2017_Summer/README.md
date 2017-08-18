@@ -19,7 +19,7 @@ homework and practice in C++
     - [x] Question2_Multiple of 99
     - [x] Question3_token_reverse
     - [x] Question4_Polynomial
-    - [ ] Question5_circular_dequeue
+    - [x] Question5_circular_dequeue
     - [ ] Question6_circular_dequeue_template
 - [ ] 04_Final_exam:
 
