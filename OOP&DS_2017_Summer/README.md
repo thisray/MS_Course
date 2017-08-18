@@ -15,11 +15,11 @@ homework and practice in C++
 - [x] 02_lab4_Fraction
 - [ ] 02_lab5
 - [ ] 03_Online_Exam:
-    - [ ] Question1_Fraction
+    - [x] Question1_Fraction
     - [x] Question2_Multiple of 99
     - [x] Question3_token_reverse
     - [x] Question4_Polynomial
     - [ ] Question5_circular_dequeue
     - [ ] Question6_circular_dequeue_template
-
+- [ ] 04_Final_exam:
 
