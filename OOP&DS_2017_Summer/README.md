@@ -17,7 +17,7 @@ homework and practice in C++
 - [ ] 03_Online_Exam:
     - [ ] Question1_Fraction
     - [x] Question2_Multiple of 99
-    - [ ] Question3_token_reverse
+    - [x] Question3_token_reverse
     - [ ] Question4_Polynomial
     - [ ] Question5_circular_dequeue
     - [ ] Question6_circular_dequeue_template
