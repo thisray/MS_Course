@@ -18,7 +18,7 @@ homework and practice in C++
     - [ ] Question1_Fraction
     - [x] Question2_Multiple of 99
     - [x] Question3_token_reverse
-    - [ ] Question4_Polynomial
+    - [x] Question4_Polynomial
     - [ ] Question5_circular_dequeue
     - [ ] Question6_circular_dequeue_template
 
