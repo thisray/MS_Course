@@ -1,0 +1,85 @@
+popf
+pushb 1
+pushb 2
+pushb 3
+pushb 4
+pushb 5
+dump
+pushf 6
+pushf 7
+pushf 8
+pushf 9
+pushf 10
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+pushf 10
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+dump
+shiftl
+dump
+shiftr
+dump
+shiftr
+pushf 10
+dump
+shiftr
+dump
+shiftr
+dump
+shiftr
+dump
+shiftr
+dump
+pushf 10
+shiftr
+dump
+shiftr
+dump
+shiftr
+pushf 10
+dump
+shiftr
+dump
+popf
+dump
+popb
+dump
+popf
+dump
+popb
+dump
+popb
+dump
+popf
+dump
+popb
+dump
+popf
+dump
+popb
+dump
+popf
+dump
+popb
+dump
+popf
+dump
+popf
+dump
+popb
+dump
