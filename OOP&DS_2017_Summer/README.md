@@ -7,13 +7,15 @@ homework and practice in C++
 
 ## Work List
 
-- [x] 00_hw0_RationalNumber_(summer_hw)
-- [x] 01_hw1_BigNumber
-- [ ] 01_hw2_BigNumberWithClass
-- [x] 02_lab2_PrimeFactorization
-- [x] 02_lab3_FibonacciBaseBinarySequence
-- [x] 02_lab4_Fraction
-- [ ] 02_lab5
+- [ ] 01_Homework:
+    - [x] hw0_RationalNumber_(summer_hw)
+    - [x] hw1_BigNumber
+    - [ ] hw2_BigNumberWithClass
+- [ ] 02_Lab:
+    - [x] lab2_PrimeFactorization
+    - [x] lab3_FibonacciBaseBinarySequence
+    - [x] lab4_Fraction
+    - [ ] lab5
 - [x] 03_Online_Exam:
     - [x] Question1_Fraction
     - [x] Question2_Multiple of 99
@@ -22,4 +24,8 @@ homework and practice in C++
     - [x] Question5_circular_dequeue
     - [x] Question6_circular_dequeue_template
 - [ ] 04_Final_exam:
+    - [ ] Q1
+    - [ ] Q2
+    - [x] Q3_BinarySearchTree
+    - [ ] Q4
 

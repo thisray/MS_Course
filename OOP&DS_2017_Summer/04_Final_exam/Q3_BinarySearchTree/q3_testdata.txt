@@ -1,0 +1,25 @@
+i 25
+i 20
+i 10
+i 22
+i 50
+i 40
+i 60
+f 25
+f 99
+f 22
+i 30
+ppre
+ppost
+plevel
+clear
+i 10
+i 20
+i 30
+f 40
+i 40
+ppre
+ppost
+plevel
+f 40
+z
