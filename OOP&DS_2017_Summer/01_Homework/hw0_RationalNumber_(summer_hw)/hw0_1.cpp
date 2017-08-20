@@ -2,8 +2,7 @@
 using namespace std;
 
 int getGCD(int a, int b){
-    if(b > a){ return getGCD(b, a); }
-
+    if(b == 0 || a == 0){ return 1; }
     int c;
     c = a % b;
     if(c==0){ return b; }
