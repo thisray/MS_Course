@@ -1,0 +1,10 @@
+insert 8
+insert 20
+insert 16
+print
+insert 4
+print
+insert 7
+print
+delete
+print

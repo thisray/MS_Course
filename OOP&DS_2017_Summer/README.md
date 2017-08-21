@@ -23,9 +23,9 @@ homework and practice in C++
     - [x] Question4_Polynomial
     - [x] Question5_circular_dequeue
     - [x] Question6_circular_dequeue_template
-- [ ] 04_Final_exam:
+- [x] 04_Final_exam:
     - [x] Q1_Fraction
     - [x] Q2_Token_Reverse
     - [x] Q3_BinarySearchTree
-    - [ ] Q4
+    - [x] Q4
 
