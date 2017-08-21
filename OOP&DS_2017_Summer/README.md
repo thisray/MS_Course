@@ -26,7 +26,7 @@ homework and practice in C++
     - [x] Question5_circular_dequeue
     - [x] Question6_circular_dequeue_template 
     </br>
-- [x] 04_Final_exam:    
+- [x] 04_Final_Exam:    
     - [x] Q1_Fraction
     - [x] Q2_Token_Reverse
     - [x] Q3_BinarySearchTree
