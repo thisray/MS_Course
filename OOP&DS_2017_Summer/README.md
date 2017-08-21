@@ -10,23 +10,23 @@ homework and practice in C++
 - [ ] 01_Homework:    
     - [x] hw0_RationalNumber_(summer_hw)
     - [x] hw1_BigNumber
-    - [ ] hw2_BigNumberWithClass
+    - [ ] hw2_BigNumberWithClass </br>
 - [x] 02_Lab:    
     - [x] lab2_PrimeFactorization
     - [x] lab3_FibonacciBaseBinarySequence
     - [x] lab4_Fraction
-    - [x] lab5_BinarySearchTree
+    - [x] lab5_BinarySearchTree </br>
 - [x] 03_Online_Exam:    
     - [x] Question1_Fraction
     - [x] Question2_Multiple of 99
     - [x] Question3_token_reverse
     - [x] Question4_Polynomial
     - [x] Question5_circular_dequeue
-    - [x] Question6_circular_dequeue_template
+    - [x] Question6_circular_dequeue_template </br>
 - [x] 04_Final_exam:    
     - [x] Q1_Fraction
     - [x] Q2_Token_Reverse
     - [x] Q3_BinarySearchTree
-    - [x] Q4_MinHeap
+    - [x] Q4_MinHeap </br>
     
     
