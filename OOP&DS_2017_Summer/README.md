@@ -7,10 +7,10 @@ homework and practice in C++
 
 ## Work List
 
-- [ ] 01_Homework:    
+- [x] 01_Homework:    
     - [x] hw0_RationalNumber_(summer_hw)
     - [x] hw1_BigNumber
-    - [ ] hw2_BigNumberWithClass 
+    - [x] hw2_BigNumberWithClass 
     </br>
 - [x] 02_Lab:    
     - [x] lab2_PrimeFactorization

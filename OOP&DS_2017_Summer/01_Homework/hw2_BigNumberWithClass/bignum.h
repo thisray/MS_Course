@@ -52,7 +52,7 @@ BigNum::BigNum(){
 }
 
 BigNum::BigNum(int n){
-    vector<int> temp;
+    BigNum temp;
     temp.number.push_back(n);
     this->number = temp.number;
     this->sign = temp.sign;
@@ -164,10 +164,26 @@ BigNum operator-(const BigNum & big_n1, const BigNum & big_n2){
 
     int n1, n2, size1 = big_n1.number.size(), size2 = big_n2.number.size(), big_size;
 
-    if((size1 < size2) || (size1 == size2 && big_n1.number.at(size1-1) < big_n2.number.at(size2-1))){ 
+    if(size1 < size2){ 
         result = (big_n2 - big_n1);
         result.sign = -1;
         return result;
+    }
+
+    if(size1 == size2){
+        for(int i=size1-1; i>=0; i--){
+            if(big_n1.number.at(i) == big_n2.number.at(i)){
+                continue;
+            }
+            else if(big_n1.number.at(i) > big_n2.number.at(i)){
+                break;
+            }
+            else if(big_n1.number.at(i) < big_n2.number.at(i)){
+                result = (big_n2 - big_n1);
+                result.sign = -1;
+                return result; 
+            }
+        }
     }
 
     big_size = size1;
@@ -189,6 +205,10 @@ BigNum operator-(const BigNum & big_n1, const BigNum & big_n2){
     while(result.number.at(check_size) == 0){
         result.number.pop_back();
         check_size = check_size -1;
+
+        if(check_size == 0){
+            break;
+        }
     }
 
     return result;
@@ -237,8 +257,39 @@ BigNum operator*(const BigNum & big_n1, const BigNum & big_n2){
 // dividend / divisor = quotient + remainder
 BigNum operator/(const BigNum & big_n1, const BigNum & big_n2){
     BigNum result;
+    BigNum dividend = big_n1, divisor = big_n2, temp_divisor;
+    int temp_divisor_size = dividend.number.size() - divisor.number.size();
 
-    // TODO
+    while(temp_divisor_size >= 0){
+        temp_divisor = divisor;
+        for(int i=0; i<temp_divisor_size; i++){
+            temp_divisor.number.insert(temp_divisor.number.begin(), 0);
+        }
+
+        int quotient_here = 0;
+        while((dividend - temp_divisor).sign > 0){
+            dividend = dividend - temp_divisor;
+            quotient_here = quotient_here +1;
+        }
+
+        result.number.insert(result.number.begin(), quotient_here);
+        quotient_here = 0;
+        temp_divisor_size = temp_divisor_size -1;
+    }
+
+    if(result.number.size() == 0){
+        result.number.push_back(0);
+    }
+
+    int check_size = result.number.size() -1;
+    while(result.number.at(check_size) == 0){
+        result.number.pop_back();
+        check_size = check_size -1;
+
+        if(check_size == 0){
+            break;
+        }
+    }
 
     return result;
 }
@@ -248,3 +299,21 @@ BigNum operator/(const BigNum & big_n1, const BigNum & big_n2){
 
 
 #endif
+
+
+
+/*
+
+a: 9866124
+b: 9876
+c: 9876
+
+9876000
+9856248
+97437840624
+999
+9866124
+
+*/
+
+

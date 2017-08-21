@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 		cin>>a>>b;
 		BigNum c(b);
 
-        // // for test
+        // // // for test
         cout << "a: " << a << endl;
         cout << "b: " << b << endl;
         cout << "c: " << c << endl;
@@ -24,8 +24,8 @@ int main(int argc, char **argv)
 		cout<<a+c<<endl;
 		cout<<a-c<<endl;
 		cout<<a*c<<endl;
-		// cout<<a/c<<endl;
-		// cout<<a*c/b<<endl;
+		cout<<a/c<<endl;
+		cout<<a*c/b<<endl;
 	}
 	                                                                                                                           
 }
