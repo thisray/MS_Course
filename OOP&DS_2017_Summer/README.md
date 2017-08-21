@@ -27,5 +27,5 @@ homework and practice in C++
     - [x] Q1_Fraction
     - [x] Q2_Token_Reverse
     - [x] Q3_BinarySearchTree
-    - [x] Q4
+    - [x] Q4_MinHeap
 
